@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Kanban from './components/Kanban';
+
 const App: React.FC = () => {
 	return (
 		<div className="App">
-			<h1>Hello World</h1>
+			<Kanban />
 		</div>
 	);
 };
